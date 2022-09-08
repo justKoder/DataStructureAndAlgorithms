@@ -11,26 +11,34 @@ So we can see that the same operator operate different types of values different
 ### Data types available in Python 
 
 (i)  **Integer**
-  -> In Python we represent whole numbers using int (integer). In integers numbers can lie anywhere from negative infinity to positive infinity which make it convinient      for us to deal with integers without caring much about the memory size it will take because Python will handle it automatically.
+  -> In Python we represent whole numbers using int (integer). In integers numbers can lie anywhere from negative infinity to positive infinity which make it                convinient for us to deal with integers without caring much about the memory size it will take because Python will handle it automatically.
+     
      x = 4
+     
      print(type(x))
+     
      output >>  <class "int">
   
   
   
 (ii)  **Float**
   -> In Python to represent a real number having decimal point we use float.It represent both rational and irrational numbers. There can be any number of digits before        or after the decimal point.
+     
      x = 4.0
+     
      print(type(x))
+     
      output >>  <class "float">
 
 
 
 (iii)  **Complex Numbers**
-   -> In Python we can also work with complex number where we represent imaginary number. For example a + bj is a complex number where a and b are real numbers and j is
-      an imaginary number.
+   -> In Python we can also work with complex number where we represent imaginary number. For example a + bj is a complex number where a and b are real numbers and j         is an imaginary number.
+      
       x = 2 + 3j
+      
       print(type(x))
+      
       output >> <class "complex">
 
 
@@ -38,16 +46,22 @@ So we can see that the same operator operate different types of values different
 (iv) **String**
    -> String values are the combination of letters, charecters, numbers and special charecters inside the single, double or even tripple quotation mark. Most of the 
       time we use single and double quotation marks for single line strings and while we want to write multi-line string we use tripple quotation mark.
+      
       x = "Hello World"
+      
       print(type(x))
+      
       output >> <class 'str'>
  
  
  
 (v)  **Boolean**
    -> Boolean has only two values True (T is always capital) and False (F is always capital). We use boolean data type when we have to make decision or write                 conditional statements. We can also represent boolean values by using number such as 1 for True and 0 for False.
+      
       x = True
+      
       print(type(x))
+      
       output >> <class 'bool'>
  
  
@@ -55,6 +69,9 @@ So we can see that the same operator operate different types of values different
 (vi)  **None**
    -> Suppose a situation where you have to declare a variable without initializing tha variable then there comes nonetype to save you . It is use to declare a 
       variable with any initial value.
+      
       x = None
+      
       print(type(x))
+      
       output >> <class 'NoneType'>
