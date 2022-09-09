@@ -90,11 +90,22 @@ Operators are one of the most important thing in computer programming languages 
 (i) **Logical Operators** 
    -> Logical operators are the operators which operates on two or more boolean expressions to return single boolean value. Python supports following logical                 operators:
    
-   **and** : Conditional and, connects two expressions and returns True when both the expression returns True otherwise it returns False.
+      **and** : Conditional and, connects two expressions and returns True when both the expression returns True otherwise it returns False.
    
-   **or**  : Conditional or, connects two expressions and returns True when one of the expression returns True otherwise it returns False.
+      **or**  : Conditional or, connects two expressions and returns True when one of the expression returns True otherwise it returns False.
    
-   **not** : Unary negation, It return True when the expression return False and returns False when expression returns True.
+      **not** : Unary negation, It return True when the expression return False and returns False when expression returns True.
    
 (ii)  **Equality Operators**
-    -> Equality operators are the operators which compares two operands for their equality or inequality and return True or False if they are equal or not.
+    -> Equality operators are the operators which compares two operands for their equality or inequality.
+      
+      **==**  : Equivalent, checks if both the operands are equal.
+      
+      **!=**  : Not Equivalent, checks if both the operands are not equal.
+      
+      **is**  : Same Identity, checks the identity means it checks if both the operands are same and belongs to same data type.
+      
+      **is not**: Different Identity, checks the different identity of operands.
+
+
+(iii) **Comparison Operators**
