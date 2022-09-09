@@ -75,3 +75,26 @@ So we can see that the same operator operate different types of values different
       print(type(x))
       
       output >> <class 'NoneType'>
+
+
+## Operators in Programming Languages
+
+Operators are one of the most important thing in computer programming languages with which we can perform operations with different data types. In programming we need to perform so many operations to give instructions to computers like calculations, concatinations, etc. 
+
+
+**Note ->**  An expression is a statement in computer science in which the combination of number of variables, constant values, operators and functions put together to
+             get value of any data type 
+
+### Types of operators available in Python 
+
+(i) **Logical Operators** 
+   -> Logical operators are the operators which operates on two or more boolean expressions to return single boolean value. Python supports following logical                 operators:
+   
+   **and** : Conditional and, connects two expressions and returns True when both the expression returns True otherwise it returns False.
+   
+   **or**  : Conditional or, connects two expressions and returns True when one of the expression returns True otherwise it returns False.
+   
+   **not** : Unary negation, It return True when the expression return False and returns False when expression returns True.
+   
+(ii)  **Equality Operators**
+    -> Equality operators are the operators which compares two operands for their equality or inequality and return True or False if they are equal or not.
