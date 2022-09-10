@@ -79,33 +79,82 @@ So we can see that the same operator operate different types of values different
 
 ## Operators in Programming Languages
 
-Operators are one of the most important thing in computer programming languages with which we can perform operations with different data types. In programming we need to perform so many operations to give instructions to computers like calculations, concatinations, etc. 
+> "Operators are one of the main concepts in programming"
+
+Now, we have variables and different types of data types and we need to perform some operations with our data or values like calculations or comparisons, etc. So, here comes the operators in the picture. In Python, we have different types of operators and these are:
+
+(i) **Logical Operators**: Logical operators are the operators which compare two expressions and return the value in True or False. Following are the logical operators:
+
+   1) **and**: It compares two expressions and returns True if both the 
+      operators return True. For example -: let's take two expressions A 
+      and B then 
+       
+![table-chart (1)](https://user-images.githubusercontent.com/93759322/189498988-9f2acf12-05fd-4a34-a308-a3893f7e59f1.png)
+
+   2) **or**: It compares two expressions and returns True if one of the 
+       expressions returns True. For example -: let's take two expressions 
+       A and B then 
+
+![table-chart (3)](https://user-images.githubusercontent.com/93759322/189499025-b3ddc663-78cb-4045-a8b0-680a68ba6e25.png)
 
 
-**Note ->**  An expression is a statement in computer science in which the combination of number of variables, constant values, operators and functions put together to
-             get value of any data type 
+   3) **not**: It returns True if the expression returns False and returns 
+       False if the expression returns True.
 
-### Types of operators available in Python 
+(ii) **Equality Operators**: These operators strictly check the equality         
+      of two values. The following operators belong to this equality 
+      operator: 
 
-(i) **Logical Operators** 
-   -> Logical operators are the operators which operates on two or more boolean expressions to return single boolean value. Python supports following logical                 operators:
+   1) **==**: Equivalent Operator, returns True if both the value are 
+          equal. For example 
+                   
+                2 == 2
+                returns True
+
+   2) **!=**: Not Equivalent, returns True if both values are not equal.
+                
+                2 != 3
+                returns True
+
+   3) **is**: Same Identity, it is for reference equality. It checks if 
+        two variables point toward the same object.
+
+                a = 1
+                b = 1
+                a is b
+                returns True
+
+   4) **is not**:Different Identity, it checks if both variables don't 
+        point toward the same object.
+
+                a = 1
+                b = "1"
+                a is not b
+                returns True
+
+(iii) **Comparison Operators**: Comparison operators are the 
+      operators which are used to compare two values. Following are the 
+      comparison operators available in Python:
    
-      **and** : Conditional and, connects two expressions and returns True when both the expression returns True otherwise it returns False.
-   
-      **or**  : Conditional or, connects two expressions and returns True when one of the expression returns True otherwise it returns False.
-   
-      **not** : Unary negation, It return True when the expression return False and returns False when expression returns True.
-   
-(ii)  **Equality Operators**
-    -> Equality operators are the operators which compares two operands for their equality or inequality.
-      
-      **==**  : Equivalent, checks if both the operands are equal.
-      
-      **!=**  : Not Equivalent, checks if both the operands are not equal.
-      
-      **is**  : Same Identity, checks the identity means it checks if both the operands are same and belongs to same data type.
-      
-      **is not**: Different Identity, checks the different identity of operands.
+   1) **<**: Less than, it checks if the left-hand side value is less than 
+       that of the right-hand side value, if so it returns True.
 
 
-(iii) **Comparison Operators**
+                 2 < 3
+                 returns True
+                 4 < 2
+                 returns False 
+
+   2) **>**: Greater than, it checks if the left-hand side value is greater 
+       than that of the right-hand side value, if so it returns True.
+
+                 2 > 3
+                 returns False
+                 4 > 2
+                 returns True
+
+   3) **<=**: Less than equal to, it checks if the left-hand side value is 
+       less than or equal to that of the right-hand side value, if so it 
+       returns True.
+
+                 
