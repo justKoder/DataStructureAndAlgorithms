@@ -156,5 +156,58 @@ Now, we have variables and different types of data types and we need to perform 
    3) **<=**: Less than equal to, it checks if the left-hand side value is 
        less than or equal to that of the right-hand side value, if so it 
        returns True.
+       
+                    3 <= 3
+             return True
+             2 <= 4
+             return True
+             3 <= 2
+             return False
+4) **>=**: Greater than equal to, it checks if the left-hand side value is greater than or equal to that of the right-hand side value
+             
+             3 >= 3
+             
+             return True
+             
+             2 >= 4
+             
+             return False
+             
+             3 >= 2
+             return True
+(iv) **Arithmetic Operators**: Arithmetic operators are used to 
+       perform mathematical operations like calculations. Following are 
+       the arithmetic operators present in Python:
 
-                 
+   1) **+**: Use for addition
+
+   2) **-**: Use for subtraction
+
+   3) ** * **: Use for multiplication
+
+   4) **/**:Use for division
+
+   5) **//** : Integer division, it returns the integer part of the quotient
+        For example:
+
+                13 // 4
+                return 3
+                11 // 5 
+                return 2
+   
+   6) **%**: Modulo operator: it returns the remainder of the division
+        For example:
+        
+                11 % 4 
+                return 3
+                15 % 6
+                return 3
+
+
+> There are many other operators in Python like the **Bitwise** operator and **Sequence** operator. 
+
+
+## Summary 
+So in this article, we have talked about operators and the different types of operators present in Python programming language. Hope you have enjoyed it.
+
+> Thanks for reading!
