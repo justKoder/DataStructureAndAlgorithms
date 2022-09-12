@@ -207,7 +207,5 @@ Now, we have variables and different types of data types and we need to perform 
 > There are many other operators in Python like the **Bitwise** operator and **Sequence** operator. 
 
 
-## Summary 
-So in this article, we have talked about operators and the different types of operators present in Python programming language. Hope you have enjoyed it.
 
-> Thanks for reading!
+So now that we are familiar with variables, data-types in  Python and we know how to perform operations on values using different operators. Now let's talk about the real data structures present in Python programming language.
