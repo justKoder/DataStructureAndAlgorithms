@@ -209,3 +209,70 @@ Now, we have variables and different types of data types and we need to perform 
 
 
 So now that we are familiar with variables, data-types in  Python and we know how to perform operations on values using different operators. Now let's talk about the real data structures present in Python programming language.
+
+**Python** is one of the most popular programming languages in the world. It is used for so many things such as making backends for websites, artificial intelligence, data science, and much more. We need lots and lots of data sets to work in these fields, for example, on websites there are lots of data of may be products or users which we need to store in such a way that they can be accessed efficiently. Then in artificial intelligence, we need data in millions. So to manage this amount of data, we structure them so they can be accessed efficiently. This structure of data is called **Data Structures**.
+
+> The format for efficiently storing, organizing, and managing data is called **Data Structures**.
+
+### What are the different types of data structures?
+
+Python provides different kinds of data structures to facilitate problem-solving. These can be classified as linear or non-linear, primitive or non-primitive, and contiguous or non-contiguous.
+Let's talk about all of them in detail.
+
+1. **Primitive**: These are the basic set of different data types from which all the other data types are constructed. It is also called simple data type. It cannot be null (empty). This includes integers, strings, floats, and boolean in Python.
+
+2. **Non-Primitive**: These are the type of data structures that can store more than one type of data. It is also called complex data type. It can be null. This includes arrays, lists, tuples, sets, dictionaries, linked lists, stacks, etc.
+
+3. **Contiguous**: As its name suggests that these contain those 
+   values that are stored in contiguous memory locations. For example,
+   in an array, the elements are stored in an adjacent memory location one after another. In this type of data structure, the data element can be of primitive data type or complex data type. This includes arrays, tuples, sets, objects, strings, lists, maps, and dictionaries.
+
+4. **Non-Contiguous**: In this type of data structure, the data elements are scattered across different memory locations. Here each data item is stored in the form of nodes which keeps a link to one or more other nodes in the collection. This includes linked lists, maps, and graphs.
+
+5. **Linear**: In linear data structures, the elements are accessed in a sequential order irrespective of whether the data items are contiguous or non-contiguous. This includes arrays, linked lists, stacks, queues, and lists.
+
+6. **Non-Linear**: In a nonlinear data structure,  the elements are present in the form of nodes and they are accessed in nonlinear order and they are stored in noncontiguous order. Examples include trees and graphs.
+
+### Built-in Data Structures in Python.
+Python provides four built-in data structures that cover almost 80% of the real-world data structures. Let's discuss them in detail.
+
+1.**List**: Lists are the simplest container that comes inbuilt in Python. In other words, lists are the collection of elements within the [ ] brackets and separated by commas. A single list can contain elements of different data types and it can contain multiple elements of the same data type. A list is a mutable type which means the elements can be altered after the creation of the list.
+
+
+``` 
+      l1 = [1, 2, 3, "Hello", 3.4, 2 + 3j, 2, 3]
+      print(l1)
+      >>> [1, 2, 3, "Hello", 3.4, 2 + 3j, 2, 3]
+      print(l1[0])
+      >>> 1
+      print(l1[2:3])
+      >>> [3, "Hello"]
+``` 
+
+> **Note**: A list can contain another list, tuples, dictionaries, and sets inside it. 
+
+2.**Tuple**: A tuple is also a collection of elements inside ( ) and they are separated by commas. It shares lots of functionality with the list like it can contain elements of multiple data types, accessing elements by indexing. A tuple is immutable which means we cannot change elements inside it once it has been created.
+
+```
+     t1 = (4, 5, 6, 4, 5, "World")
+     print(t1)
+     >>> (4, 5, 6, 4, 5, "World")
+```
+
+3.**Dictionary**: A dictionary is a collection of key-value pairs within { } brackets in python. In a dictionary, every element has its own key which is used to access the element unlike in lists and tuples where we use the index number to access elements. Here key and value are separated by a colon (":") and the key-value pair is separated by commas. Values inside a dictionary can be of any data type or they can be lists or tuples or even dictionaries as well but keys should be immutable and non-repeating. Keys are case sensitive which means the same name but different cases will be treated differently. 
+
+```
+     d1 = {"key1":1, "key2":[1,2,3], "key3":(4,5,6), "key4":"Hello"}
+     print(d1)
+     >>> {"key1":1, "key2":[1,2,3], "key3":(4,5,6), "key4":"Hello"}
+     print(d1["key1"])
+     >>> 1
+```
+
+4.**Set**: A set is an unordered collection data type that is mutable, and iterable but it does not contain multiple elements of the same data type. The main advantage of using a set collection is that it has a highly optimized method to check whether the specific element is present in the set or not. Since a set is unordered hence we cannot access elements by index numbers like in lists. For creating a set we use { } braces 
+
+``` 
+     s1 = {1, 2, 3, 4, 5}
+     print(s1)
+     >>> {1, 2, 3, 4, 5}
+```
