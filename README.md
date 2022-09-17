@@ -276,3 +276,5 @@ Python provides four built-in data structures that cover almost 80% of the real-
      print(s1)
      >>> {1, 2, 3, 4, 5}
 ```
+
+> Now every data structure will have their own separate file in this same directory with all the explanation and problems related to that.
